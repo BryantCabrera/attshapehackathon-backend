@@ -8,7 +8,7 @@ const methodOverride = require('method-override');
 const session = require('express-session');
 const cors = require('cors');
 
-// require('./db/db');
+require('./db/db');
 
 /********** MIDDLEWARE **********/
 app.use(session({
